@@ -4,7 +4,7 @@ main {
   padding: $padding-50 $padding-40;
   display: grid;
   grid-template-columns: repeat(var(--column-count), $card-width);
-  gap: 46px 48px;
+  gap: $gap-46 $gap-48;
   justify-content: center;
 
   @media (min-width: 488px) {
@@ -74,7 +74,7 @@ main {
     margin-top: $margin-top-16;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 17px;
+    gap: $gap-17;
   }
 
   &__reviews {
@@ -89,7 +89,7 @@ main {
   &__price {
     display: flex;
     justify-content: space-between;
-    gap: 85px;
+    gap: $gap-85;
 
     width: $card-inner-width;
 
