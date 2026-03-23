@@ -2,9 +2,9 @@
   display: flex;
 
   &__star {
-    height: 16px;
-    width: 16px;
-    margin-right: 4px;
+    height: $size-16;
+    width: $size-16;
+    margin-right: $spacing-4;
     background-image: url(../images/star.svg);
     background-repeat: no-repeat;
     background-position: center;
